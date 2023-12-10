@@ -27,6 +27,9 @@ require("lazy").setup({
         }
       end,
     },
+    {
+      "marko-cerovac/material.nvim",
+    },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
@@ -55,4 +58,4 @@ require("lazy").setup({
   },
 })
 
-vim.cmd([[colorscheme solarized-osaka]])
+vim.cmd([[colorscheme tokyonight-moon]])
